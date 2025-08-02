@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="150" fill="#f0f0f0"/>
+  
+  <!-- This is a more detailed stylized representation of the shared profile photo -->
+  <!-- Shirt/clothing - red color to match the photo -->
+  <path d="M60 300 L60 180 C60 180 100 160 150 160 C200 160 240 180 240 180 L240 300 Z" fill="#b22222"/>
+  
+  <!-- Neck -->
+  <path d="M125 160 L125 140 L175 140 L175 160" fill="#e8c39e"/>
+  
+  <!-- Collar - black trim -->
+  <path d="M125 160 L115 170 L125 180" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M175 160 L185 170 L175 180" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  
+  <!-- Face shape -->
+  <ellipse cx="150" cy="100" rx="70" ry="80" fill="#e8c39e"/>
+  
+  <!-- Hair -->
+  <path d="M80 100 Q85 40 150 40 Q215 40 220 100" fill="#2a2a2a"/>
+  <path d="M80 100 Q90 110 90 130 L210 130 Q210 110 220 100" fill="#2a2a2a"/>
+  
+  <!-- Ears -->
+  <ellipse cx="80" cy="100" rx="10" ry="15" fill="#e8c39e"/>
+  <ellipse cx="220" cy="100" rx="10" ry="15" fill="#e8c39e"/>
+  
+  <!-- Eyebrows -->
+  <path d="M115 85 Q130 80 145 85" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M155 85 Q170 80 185 85" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="130" cy="95" rx="10" ry="5" fill="#2a2a2a"/>
+  <ellipse cx="170" cy="95" rx="10" ry="5" fill="#2a2a2a"/>
+  
+  <!-- Nose -->
+  <path d="M150 100 L145 120 L155 120 Z" fill="#d4b08c"/>
+  
+  <!-- Mouth -->
+  <path d="M130 130 Q150 140 170 130" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  
+  <!-- Facial hair - subtle mustache -->
+  <path d="M140 125 Q150 130 160 125" fill="none" stroke="#2a2a2a" stroke-width="1.5" opacity="0.7"/>
+</svg>

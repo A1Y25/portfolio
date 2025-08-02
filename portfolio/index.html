@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Kumar Shukla - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ayush Kumar Shukla</h1>
+            <p class="tagline">Digital Marketing Enthusiast</p>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="Profile.jpeg" alt="Ayush Kumar Shukla" class="profile-pic">
+                </div>
+                <div class="about-text">
+                    <p class="professional-summary">Curious, adaptive, and motivated professional exploring opportunities in digital marketing. Interested in leveraging creative, analytical, and communication skills to drive innovative marketing campaigns and deliver measurable results.</p>
+                    <p class="additional-info">Highly interested in healthy lifestyle choices and incorporating wellness insights into creative projects. Eager to continue learning new marketing tools and techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Digital Marketing Fundamentals</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-pencil-alt"></i>
+                    <h3>Content Creation & Online Branding</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Communication & Collaboration</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-share-alt"></i>
+                    <h3>Social Media Platform Familiarity</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Creative Problem-Solving</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Graduation</h3>
+                        <p>Currently completing Graduation from Lucknow University</p>
+                        <p class="timeline-date">Present</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>12th Standard</h3>
+                        <p>Completed Higher Secondary Education</p>
+                        <p class="timeline-date">2024</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>10th Standard</h3>
+                        <p>Completed Secondary Education</p>
+                        <p class="timeline-date">2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section bg-light">
+        <div class="container">
+            <h2>Certifications</h2>
+            
+            <!-- AI Certification Badges -->
+            <div class="cert-badges">
+                <div class="cert-badge">
+                    <img src="Ayush  kumar  shukla_AI_AWARE_BADGE.png" alt="AI Aware Badge" class="cert-image" onclick="openCertModal('Ayush  kumar  shukla_AI_AWARE_CERTIFICATE.png')">
+                </div>
+                <div class="cert-badge">
+                    <img src="Ayush  kumar  shukla_AI_APPRECIATE_BADGE.png" alt="AI Appreciate Badge" class="cert-image" onclick="openCertModal('Ayush  kumar  shukla_AI_APPRECIATE_CERTIFICATE.png')">
+                </div>
+            </div>
+            
+            <div class="cert-container">
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI Aware Certification</h3>
+                    <p>Intel & Digital India</p>
+                    <p>Date: July 18, 2025</p>
+                    <p>AI For All Program</p>
+                    <button class="btn btn-sm" onclick="openCertModal('Ayush  kumar  shukla_AI_AWARE_CERTIFICATE.png')">View Certificate</button>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-award"></i></div>
+                    <h3>AI Appreciate Certification</h3>
+                    <p>Intel & Digital India</p>
+                    <p>Date: July 18, 2025</p>
+                    <p>AI For All Program</p>
+                    <button class="btn btn-sm" onclick="openCertModal('Ayush  kumar  shukla_AI_APPRECIATE_CERTIFICATE.png')">View Certificate</button>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-table"></i></div>
+                    <h3>Certified Excel Master</h3>
+                    <p>Microsoft.com</p>
+                    <p>Date: July 19, 2025</p>
+                    <p class="cert-number">Certificate #: 8653231</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-comment-dots"></i></div>
+                    <h3>Certified ChatGPT Expert</h3>
+                    <p>BE10x</p>
+                    <p>Date: April 27, 2025</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>Certified Digital Marketing Selling Online Expert</h3>
+                    <p>HP Foundation</p>
+                    <p>Date: July 18, 2025</p>
+                    <p class="cert-number">Certificate #: 111fbc42-f161-454c-b935-3e1dcb16635f</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Certified Power BI Course Completion</h3>
+                    <p>Date: June 13, 2025</p>
+                    <p class="cert-number">Certificate #: SQ2IT0I</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Certificate Modal -->
+        <div id="certModal" class="cert-modal">
+            <span class="cert-modal-close" onclick="closeCertModal()">&times;</span>
+            <img class="cert-modal-content" id="certModalImg">
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="experience-content">
+                <p>Entry-level—actively seeking first career opportunity in digital marketing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>8423093660</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>shuklaayush9458@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ayush Kumar Shukla. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

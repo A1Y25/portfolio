@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="150" fill="#f0f0f0"/>
+  
+  <!-- This is a placeholder SVG representation of a profile picture -->
+  <!-- In a real implementation, you would use the actual image -->
+  <circle cx="150" cy="120" r="70" fill="#6a11cb" opacity="0.8"/>
+  <rect x="80" y="200" width="140" height="70" rx="20" fill="#6a11cb" opacity="0.8"/>
+  
+  <!-- Text indicating this is a placeholder -->
+  <text x="150" y="125" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Profile Photo</text>
+  <text x="150" y="235" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Ayush Kumar Shukla</text>
+</svg>
